@@ -1,0 +1,49 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --bg: #ffffff;
+  --fg: #11151c;
+}
+
+html {
+  scroll-behavior: smooth;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background: var(--bg);
+  color: var(--fg);
+  font-feature-settings: 'cv11', 'ss01', 'ss03';
+}
+
+@layer components {
+  .container-px {
+    @apply px-6 sm:px-8 lg:px-12;
+  }
+  .section {
+    @apply py-20 md:py-28 lg:py-36;
+  }
+  .h-display {
+    @apply font-display font-semibold tracking-tightest text-ink-900;
+  }
+  .btn-primary {
+    @apply inline-flex items-center justify-center rounded-full bg-ink-900 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-ink-700 hover:scale-[1.02];
+  }
+  .btn-secondary {
+    @apply inline-flex items-center justify-center rounded-full border border-ink-200 bg-white px-6 py-3 text-sm font-medium text-ink-800 transition-all hover:border-ink-300 hover:bg-ink-50;
+  }
+  .card {
+    @apply rounded-3xl border border-ink-100 bg-white p-8 transition-all hover:border-ink-200 hover:shadow-[0_8px_30px_rgba(0,0,0,0.04)];
+  }
+  .eyebrow {
+    @apply text-xs font-medium uppercase tracking-[0.18em] text-accent-600;
+  }
+}
+
+::selection {
+  background: #dbeafe;
+  color: #1d4ed8;
+}
