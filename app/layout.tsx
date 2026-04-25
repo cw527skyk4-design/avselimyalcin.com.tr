@@ -15,7 +15,7 @@ export const metadata: Metadata = {
     template: '%s | Av. Arb. Selim Yalçın',
   },
   description:
-    'İstanbul merkezli avukatlık ve arabuluculuk hizmetleri. Uyuşmazlık çözümünde güvenilir, etkin ve sonuç odaklı hukuki danışmanlık.',
+    'Uyuşmazlık çözümünde güvenilir, etkin ve sonuç odaklı hukuki danışmanlık.',
   keywords: [
     'İstanbul avukat',
     'arabulucu',
@@ -24,6 +24,8 @@ export const metadata: Metadata = {
     'ticari arabuluculuk',
     'iş hukuku',
     'aile hukuku',
+    'arabulucu ücret hesaplama',
+    'arabulucu ücret 2026',
     'tüketici uyuşmazlıkları',
   ],
   authors: [{ name: 'Av. Arb. Selim Yalçın' }],
