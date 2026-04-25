@@ -51,17 +51,17 @@ export default function HomePage() {
             {[
               {
                 t: 'Arabuluculuk',
-                d: 'Mahkeme öncesi hızlı, gizli ve bağlayıcı çözümler. Adalet Bakanlığı sicilli arabulucu.',
+                d: 'Mahkeme öncesi hızlı, gizli ve bağlayıcı çözümler.',
                 href: '/arabuluculuk',
               },
               {
                 t: 'Avukatlık',
-                d: 'Bireysel ve kurumsal müvekkiller için kapsamlı dava ve danışmanlık hizmetleri.',
+                d: 'Bireysel ve kurumsal müvekkiller için kapsamlı dava ve danışmanlık hizmeti.',
                 href: '/avukatlik',
               },
               {
                 t: 'Hukuk Teknolojileri',
-                d: 'Arabulucu Ofis, Arabulucu Hesap ve SMM Hesap ile dijital iş akışları.',
+                d: 'Arabulucu Ofis, Arabulucu Hesap ve SMM Hesaplama ile dijital iş akışları.',
                 href: '/uygulamalar',
               },
               {
@@ -71,7 +71,7 @@ export default function HomePage() {
               },
               {
                 t: 'Aile Hukuku',
-                d: 'Boşanma, velayet, nafaka ve mal rejimi davalarında etkili temsil.',
+                d: 'Boşanma, velayet, nafaka ve mal rejimi davalarında temsil.',
                 href: '/avukatlik',
               },
               {
