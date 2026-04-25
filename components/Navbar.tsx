@@ -9,7 +9,7 @@ const NAV = [
   { href: '/ozgecmis', label: 'Özgeçmiş' },
   { href: '/arabuluculuk', label: 'Arabuluculuk' },
   { href: '/avukatlik', label: 'Avukatlık' },
-  { href: '/ucret-hesaplama', label: 'Ücret Hesaplama' },
+  { href: '/ucret-hesaplama', label: 'Arabulucu Ücret Hesaplama' },
   { href: '/uygulamalar', label: 'Uygulamalar' },
   { href: '/blog', label: 'Blog' },
   { href: '/iletisim', label: 'İletişim' },
