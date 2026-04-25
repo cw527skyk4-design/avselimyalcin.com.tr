@@ -27,7 +27,11 @@ export default function OzgecmisPage() {
             <h2 className="font-display text-2xl font-semibold text-ink-900">Hakkımda</h2>
             <p className="mt-4 text-sm leading-relaxed text-ink-500">
               {/* TODO: Buraya kendi hakkınızda kısa biyografi metnini ekleyin. */}
-              Bu alan kısa süre içinde güncellenecektir.
+              2012 yılında Koç Üniversitesi Hukuk Fakültesi’nden mezun olduktan sonra, 2013 yılında avukatlık ruhsatımı alarak meslek hayatıma başladım. 
+              İstanbul Barosu’na 46524 sicil numarası ile kayıtlı olarak avukatlık faaliyetlerimi sürdürmekteyim. 
+              Hukuki bilgi ve deneyimimi akademik çalışmalarla da destekleyerek, 2018 yılında Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans programını tamamladım ve Ticaret Hukuku alanında uzmanlaştım.
+              Mesleki kariyerim boyunca Ticaret Hukuku başta olmak üzere Aile Hukuku, Borçlar Hukuku, İcra ve İflas Hukuku ile Ceza Hukuku alanlarında aktif olarak çalışmaktayım. 
+              2023 yılı itibariyle 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup, alternatif uyuşmazlık çözüm yöntemleri kapsamında arabuluculuk faaliyetleri de yürütmekteyim. 
             </p>
           </div>
 
