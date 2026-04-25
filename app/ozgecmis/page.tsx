@@ -26,11 +26,16 @@ export default function OzgecmisPage() {
           <div className="card lg:col-span-2">
             <h2 className="font-display text-2xl font-semibold text-ink-900">Hakkımda</h2>
             <p className="text-sm leading-relaxed text-ink-500 text-justify">2012 yılında Koç Üniversitesi Hukuk Fakültesi’nden mezun olduktan sonra, 2013 yılında avukatlık ruhsatımı alarak meslek hayatıma başladım.</p> 
-               <p className="text-sm leading-relaxed text-ink-500 text-justify">İstanbul Barosu’na 46524 sicil numarası ile kayıtlı olarak avukatlık faaliyetlerimi sürdürmekteyim.</p> 
-               <p className="text-sm leading-relaxed text-ink-500 text-justify">Hukuki bilgi ve deneyimimi akademik çalışmalarla da destekleyerek, 2018 yılında Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans programını tamamladım ve Ticaret Hukuku alanında uzmanlaştım.</p> 
-               <p className="text-sm leading-relaxed text-ink-500 text-justify">Mesleki kariyerim boyunca Ticaret Hukuku başta olmak üzere Aile Hukuku, Borçlar Hukuku, İcra ve İflas Hukuku ile Ceza Hukuku alanlarında aktif olarak çalışmaktayım.</p>  
-               <p className="text-sm leading-relaxed text-ink-500 text-justify">2023 yılı itibariyle 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup, alternatif uyuşmazlık çözüm yöntemleri kapsamında arabuluculuk faaliyetleri de yürütmekteyim.</p> 
-               <p className="text-sm leading-relaxed text-ink-500 text-justify">İleri düzeyde İngilizce ve başlangıç seviyesinde Almanca bilmekteyim.
+               
+            <p className="text-sm leading-relaxed text-ink-500 text-justify">İstanbul Barosu’na 46524 sicil numarası ile kayıtlı olarak avukatlık faaliyetlerimi sürdürmekteyim.</p> 
+               
+            <p className="text-sm leading-relaxed text-ink-500 text-justify">Hukuki bilgi ve deneyimimi akademik çalışmalarla da destekleyerek, 2018 yılında Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans programını tamamladım ve Ticaret Hukuku alanında uzmanlaştım.</p> 
+               
+            <p className="text-sm leading-relaxed text-ink-500 text-justify">Mesleki kariyerim boyunca Ticaret Hukuku başta olmak üzere Aile Hukuku, Borçlar Hukuku, İcra ve İflas Hukuku ile Ceza Hukuku alanlarında aktif olarak çalışmaktayım.</p>  
+               
+            <p className="text-sm leading-relaxed text-ink-500 text-justify">2023 yılı itibariyle 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup, alternatif uyuşmazlık çözüm yöntemleri kapsamında arabuluculuk faaliyetleri de yürütmekteyim.</p> 
+               
+            <p className="text-sm leading-relaxed text-ink-500 text-justify">İleri düzeyde İngilizce ve başlangıç seviyesinde Almanca bilmekteyim.
           
           </div>
 
@@ -54,8 +59,11 @@ export default function OzgecmisPage() {
           <div className="card">
             <h3 className="font-display text-lg font-semibold text-ink-900">Mesleki Deneyim</h3>
             <ul className="mt-4 space-y-3 text-sm text-ink-500">
-              {/* TODO: Mesleki deneyiminizi ekleyin */}
-              <li>—</li>
+              <li>Ticaret Hukuku</li>
+              <li>Ceza Hukuku</li>
+              <li>Aile Hukuku</li>
+              <li>Borçlar Hukuku</li>
+              <li>İcra-İflas Hukuku</li>
             </ul>
           </div>
 
