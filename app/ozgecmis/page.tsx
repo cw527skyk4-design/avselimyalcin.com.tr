@@ -55,7 +55,18 @@ export default function OzgecmisPage() {
                <li>University of Connecticut (İngilizce Dil Okulu) - 2006 </li>
             </ul>
           </div>
-
+            
+          <div className="card">
+            <h3 className="font-display text-lg font-semibold text-ink-900">Sertifikalar</h3>
+            <ul className="mt-4 space-y-3 text-sm text-ink-500">
+              <li>Ticaret Hukuku</li>
+              <li>Ceza Hukuku</li>
+              <li>Aile Hukuku</li>
+              <li>Borçlar Hukuku</li>
+              <li>İcra-İflas Hukuku</li>
+            </ul>
+          </div>
+            
           <div className="card">
             <h3 className="font-display text-lg font-semibold text-ink-900">Uzmanlık Alanları</h3>
             <ul className="mt-4 space-y-2 text-sm text-ink-500">
@@ -71,7 +82,7 @@ export default function OzgecmisPage() {
           </div>
 
           <div className="card lg:col-span-3">
-            <h3 className="font-display text-lg font-semibold text-ink-900">Yayınlar & Sertifikalar</h3>
+            <h3 className="font-display text-lg font-semibold text-ink-900">Yayınlar</h3>
             <ul className="mt-4 space-y-2 text-sm text-ink-500">
               {/* TODO: Yayın ve sertifikalarınızı ekleyin */}
               <li>—</li>
