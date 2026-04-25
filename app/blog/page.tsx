@@ -67,7 +67,7 @@ export default function BlogPage() {
           <span className="eyebrow">Blog</span>
           <h1 className="h-display mt-4 text-5xl md:text-6xl">Yazılar ve Rehberler</h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-500">
-            Hukuki süreçleri ve arabuluculuğu daha anlaşılır kılmak için sade dilde yazılar.
+            Hukuk, arabuluculuk ve uyuşmazlık çözümü üzerine güncel yazılar ve rehberler.
           </p>
         </div>
       </section>
