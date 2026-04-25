@@ -25,7 +25,7 @@ export default function OzgecmisPage() {
         <div className="grid gap-10 lg:grid-cols-3">
           <div className="card lg:col-span-2">
             <h2 className="font-display text-2xl font-semibold text-ink-900">Hakkımda</h2>
-            <p className="mt-4 text-sm leading-relaxed text-ink-500">
+            <p className="text-sm leading-relaxed text-ink-500 text-justify">
               {/* TODO: Buraya kendi hakkınızda kısa biyografi metnini ekleyin. */}
               2012 yılında Koç Üniversitesi Hukuk Fakültesi’nden mezun olduktan sonra, 2013 yılında avukatlık ruhsatımı alarak meslek hayatıma başladım. 
               İstanbul Barosu’na 46524 sicil numarası ile kayıtlı olarak avukatlık faaliyetlerimi sürdürmekteyim. 
