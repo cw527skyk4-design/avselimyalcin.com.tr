@@ -2,9 +2,8 @@ import type { Metadata } from 'next';
 import Link from 'next/link';
 
 export const metadata: Metadata = {
-  title: 'Özgeçmiş',
-  description:
-    'Av. Arb. Selim Yalçın — eğitim, mesleki deneyim, üyelikler ve uzmanlık alanları.',
+  title: 'Ozgecmis',
+  description: 'Av. Arb. Selim Yalcin - egitim, mesleki deneyim, uyelikler ve uzmanlik alanlari.',
   alternates: { canonical: '/ozgecmis' },
 };
 
@@ -20,17 +19,29 @@ export default function OzgecmisPage() {
           </p>
         </div>
       </section>
+
       <section className="container-px mx-auto max-w-8xl pb-24">
         <div className="grid gap-10 lg:grid-cols-3">
           <div className="card lg:col-span-2">
             <h2 className="font-display text-2xl font-semibold text-ink-900">Hakkımda</h2>
-            <p className="text-sm leading-relaxed text-ink-500 text-justify">2012 yılında Koç Üniversitesi Hukuk Fakültesi’nden mezun olduktan sonra, 2013 yılında avukatlık ruhsatımı alarak meslek hayatıma başladım.</p> 
-            <p className="text-sm leading-relaxed text-ink-500 text-justify">İstanbul Barosu’na 46524 sicil numarası ile kayıtlı olarak avukatlık faaliyetlerimi sürdürmekteyim.</p> 
-            <p className="text-sm leading-relaxed text-ink-500 text-justify">Hukuki bilgi ve deneyimimi akademik çalışmalarla da destekleyerek, 2018 yılında Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans programını tamamladım ve Ticaret Hukuku alanında uzmanlaştım.</p> 
-            <p className="text-sm leading-relaxed text-ink-500 text-justify">Mesleki kariyerim boyunca Ticaret Hukuku başta olmak üzere Aile Hukuku, Borçlar Hukuku, İcra ve İflas Hukuku ile Ceza Hukuku alanlarında aktif olarak çalışmaktayım.</p>  
-            <p className="text-sm leading-relaxed text-ink-500 text-justify">2023 yılı itibariyle 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup, alternatif uyuşmazlık çözüm yöntemleri kapsamında arabuluculuk faaliyetleri de yürütmekteyim.</p> 
-            <p className="text-sm leading-relaxed text-ink-500 text-justify">İleri düzeyde İngilizce ve başlangıç seviyesinde Almanca bilmekteyim.</p> 
-          
+            <p className="mt-4 text-sm leading-relaxed text-ink-500 text-justify">
+              2012 yılında Koç Üniversitesi Hukuk Fakültesi mezunu olup 2013 yılında avukatlık ruhsatını alarak meslek hayatına başladım.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-ink-500 text-justify">
+              İstanbul Barosu&apos;na 46524 sicil numarası ile kayıtlı olarak avukatlık faaliyetlerimi sürdürmekteyim.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-ink-500 text-justify">
+              2018 yılında Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans programını tamamlayarak Ticaret Hukuku alanında uzmanlaştım.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-ink-500 text-justify">
+              Mesleki kariyerim boyunca Ticaret Hukuku başta olmak üzere Aile Hukuku, Borçlar Hukuku, İcra ve İflas Hukuku ile Ceza Hukuku alanlarında aktif olarak çalışmaktayım.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-ink-500 text-justify">
+              2023 yılı itibarıyla 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup arabuluculuk faaliyetleri de yürütmekteyim.
+            </p>
+            <p className="mt-4 text-sm leading-relaxed text-ink-500 text-justify">
+              İleri düzeyde İngilizce ve başlangıç seviyesinde Almanca bilmekteyim.
+            </p>
           </div>
 
           <div className="card">
@@ -44,12 +55,12 @@ export default function OzgecmisPage() {
           <div className="card">
             <h3 className="font-display text-lg font-semibold text-ink-900">Eğitim</h3>
             <ul className="mt-4 space-y-3 text-sm text-ink-500">
-              <li> Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans - 2018</li>
-               <li>Koç Üniversitesi Hukuk Lisans - 2012</li> 
-               <li>University of Connecticut (İngilizce Dil Okulu) - 2006 </li>
+              <li>Koç Üniversitesi — Özel Hukuk Tezli Yüksek Lisans (2018)</li>
+              <li>Koç Üniversitesi — Hukuk Fakültesi (2012)</li>
+              <li>University of Connecticut — İngilizce Dil Okulu (2006)</li>
             </ul>
           </div>
-            
+
           <div className="card">
             <h3 className="font-display text-lg font-semibold text-ink-900">Sertifikalar</h3>
             <ul className="mt-4 space-y-3 text-sm text-ink-500">
@@ -60,7 +71,7 @@ export default function OzgecmisPage() {
               <li>İcra-İflas Hukuku</li>
             </ul>
           </div>
-            
+
           <div className="card">
             <h3 className="font-display text-lg font-semibold text-ink-900">Uzmanlık Alanları</h3>
             <ul className="mt-4 space-y-2 text-sm text-ink-500">
@@ -78,7 +89,6 @@ export default function OzgecmisPage() {
           <div className="card lg:col-span-3">
             <h3 className="font-display text-lg font-semibold text-ink-900">Yayınlar</h3>
             <ul className="mt-4 space-y-2 text-sm text-ink-500">
-              {/* TODO: Yayın ve sertifikalarınızı ekleyin */}
               <li>Arabulucu Selim YALÇIN</li>
             </ul>
           </div>
