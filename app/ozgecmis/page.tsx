@@ -20,7 +20,6 @@ export default function OzgecmisPage() {
           </p>
         </div>
       </section>
-
       <section className="container-px mx-auto max-w-8xl pb-24">
         <div className="grid gap-10 lg:grid-cols-3">
           <div className="card lg:col-span-2">
@@ -30,7 +29,7 @@ export default function OzgecmisPage() {
             <p className="text-sm leading-relaxed text-ink-500 text-justify">Hukuki bilgi ve deneyimimi akademik çalışmalarla da destekleyerek, 2018 yılında Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans programını tamamladım ve Ticaret Hukuku alanında uzmanlaştım.</p> 
             <p className="text-sm leading-relaxed text-ink-500 text-justify">Mesleki kariyerim boyunca Ticaret Hukuku başta olmak üzere Aile Hukuku, Borçlar Hukuku, İcra ve İflas Hukuku ile Ceza Hukuku alanlarında aktif olarak çalışmaktayım.</p>  
             <p className="text-sm leading-relaxed text-ink-500 text-justify">2023 yılı itibariyle 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup, alternatif uyuşmazlık çözüm yöntemleri kapsamında arabuluculuk faaliyetleri de yürütmekteyim.</p> 
-            <p className="text-sm leading-relaxed text-ink-500 text-justify">İleri düzeyde İngilizce ve başlangıç seviyesinde Almanca bilmekteyim.
+            <p className="text-sm leading-relaxed text-ink-500 text-justify">İleri düzeyde İngilizce ve başlangıç seviyesinde Almanca bilmekteyim.</p> 
           
           </div>
 
