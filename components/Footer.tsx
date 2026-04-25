@@ -25,7 +25,7 @@ export default function Footer() {
             <ul className="mt-4 space-y-3 text-sm text-ink-500">
               <li><Link href="/arabuluculuk" className="hover:text-ink-900">Arabuluculuk</Link></li>
               <li><Link href="/avukatlik" className="hover:text-ink-900">Avukatlık</Link></li>
-              <li><Link href="/ucret-hesaplama" className="hover:text-ink-900">Ücret Hesaplama</Link></li>
+              <li><Link href="/ucret-hesaplama" className="hover:text-ink-900">Arabulucu Ücret Hesaplama</Link></li>
               <li><Link href="/uygulamalar" className="hover:text-ink-900">Uygulamalar</Link></li>
             </ul>
           </div>
