@@ -15,7 +15,7 @@ export default function OzgecmisPage() {
           <span className="eyebrow">Özgeçmiş</span>
           <h1 className="h-display mt-4 text-5xl md:text-6xl">Av. Arb. Selim Yalçın</h1>
           <p className="mt-6 text-lg leading-relaxed text-ink-500">
-            İstanbul Barosu üyesi avukat ve Adalet Bakanlığı kayıtlı arabulucu.
+            Avukat ve Arabulucu
           </p>
         </div>
       </section>
