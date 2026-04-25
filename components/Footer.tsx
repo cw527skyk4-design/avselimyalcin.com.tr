@@ -16,7 +16,7 @@ export default function Footer() {
               className="h-10 w-auto"
             />
             <p className="mt-4 max-w-xs text-sm leading-relaxed text-ink-500">
-              İstanbul merkezli avukatlık ve arabuluculuk hizmetleri. Güven ve uzmanlık.
+              Avukatlık ve Arabuluculuk hizmetleri. Güven ve uzmanlık.
             </p>
           </div>
 
