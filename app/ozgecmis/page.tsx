@@ -80,7 +80,7 @@ export default function OzgecmisPage() {
             <h3 className="font-display text-lg font-semibold text-ink-900">Yayınlar</h3>
             <ul className="mt-4 space-y-2 text-sm text-ink-500">
               {/* TODO: Yayın ve sertifikalarınızı ekleyin */}
-              <li>—</li>
+              <li>Arabulucu Selim YALÇIN</li>
             </ul>
           </div>
         </div>
