@@ -89,7 +89,12 @@ export default function OzgecmisPage() {
           <div className="card lg:col-span-3">
             <h3 className="font-display text-lg font-semibold text-ink-900">Yayınlar</h3>
             <ul className="mt-4 space-y-2 text-sm text-ink-500">
-              <li>Arabulucu Selim YALÇIN</li>
+              <li>“Anonim Şirketlerde Esas Sermaye Artırımının Dürüstlük Kuralına Aykırılık Nedeniyle İptali” (On İki Levha Yayıncılık,Nisan 2018)</li>
+<li>“Türk Ticaret Kanununda Hakim Şirketin Kayba Sebebiyet Verici Talimatı/Yöneltmesi ve Bağlı Şirket Yönetim Kurulu Üyelerinin Sorumluluğu” (Istanbul Barosu Dergisi, Vol.89, No.2015/5)</li>
+<li>“Usufruct Certificates” (TAD Law Review, Issue 2013/1)</li> 
+<li>“Acquisition by Joint Stock Companies of Their Own Shares” (TAD Law Review, Issue 2013/1)</li> 
+<li>“Mergers under the Turkish Commercial Code” (TAD Law Review, Issue 2013/1)</li>  
+<li>“Are Sharebuybacks by Joint Stock Companies an Alternative to Dividend Distribution?” (10 Dailies, Volume III, Issue 11)</li>
             </ul>
           </div>
         </div>
