@@ -24,7 +24,7 @@ export default function HomePage() {
               mahkeme öncesi çözüme kavuşturuyor; gerektiğinde dava süreçlerinde yanınızda oluyoruz.
             </p>
             <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row animate-fade-up">
-              <Link href="/iletisim" className="btn-primary">Ücretsiz Ön Görüşme</Link>
+              <Link href="/iletisim" className="btn-primary">Ön Görüşme</Link>
               <Link href="/arabuluculuk" className="btn-secondary">Hizmetleri İncele</Link>
             </div>
           </div>
@@ -108,7 +108,7 @@ export default function HomePage() {
 
           <ol className="mt-12 grid gap-4 md:grid-cols-2 lg:grid-cols-4">
             {[
-              { n: '01', t: 'İlk Görüşme', d: 'Durumunuzu ücretsiz olarak değerlendirir, yol haritasını birlikte belirleriz.' },
+              { n: '01', t: 'İlk Görüşme', d: 'Durumunuzu değerlendirir, yol haritasını birlikte belirleriz.' },
               { n: '02', t: 'Strateji', d: 'Hukuki ve ticari riskleri analiz ederek size özel stratejiyi oluştururuz.' },
               { n: '03', t: 'Çözüm', d: 'Arabuluculuk veya dava sürecinde sonuç odaklı şekilde sizi temsil ederiz.' },
               { n: '04', t: 'Takip', d: 'Çözüm sonrası uygulama ve takip süreçlerinde de yanınızdayız.' },
@@ -135,7 +135,7 @@ export default function HomePage() {
             Hukuki sürecinize bugün başlayın.
           </h2>
           <p className="mx-auto mt-6 max-w-xl text-base text-ink-300">
-            İlk görüşmeniz ücretsiz. İstanbul içi ve online randevular mümkündür.
+            Yüzyüze ve online randevular mümkündür.
           </p>
           <div className="mt-10 flex flex-col items-center justify-center gap-3 sm:flex-row">
             <Link href="/iletisim" className="inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-medium text-ink-900 transition hover:scale-[1.02]">
