@@ -31,7 +31,8 @@ export default function OzgecmisPage() {
               İstanbul Barosu’na 46524 sicil numarası ile kayıtlı olarak avukatlık faaliyetlerimi sürdürmekteyim. 
               Hukuki bilgi ve deneyimimi akademik çalışmalarla da destekleyerek, 2018 yılında Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans programını tamamladım ve Ticaret Hukuku alanında uzmanlaştım.
               Mesleki kariyerim boyunca Ticaret Hukuku başta olmak üzere Aile Hukuku, Borçlar Hukuku, İcra ve İflas Hukuku ile Ceza Hukuku alanlarında aktif olarak çalışmaktayım. 
-              2023 yılı itibariyle 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup, alternatif uyuşmazlık çözüm yöntemleri kapsamında arabuluculuk faaliyetleri de yürütmekteyim. 
+              2023 yılı itibariyle 26722 sicil numarası ile arabuluculuk siciline kayıtlı olup, alternatif uyuşmazlık çözüm yöntemleri kapsamında arabuluculuk faaliyetleri de yürütmekteyim.
+              İleri düzeyde İngilizce ve başlangıç seviyesinde Almanca bilmekteyim.
             </p>
           </div>
 
@@ -47,7 +48,9 @@ export default function OzgecmisPage() {
             <h3 className="font-display text-lg font-semibold text-ink-900">Eğitim</h3>
             <ul className="mt-4 space-y-3 text-sm text-ink-500">
               {/* TODO: Eğitim bilgilerinizi ekleyin (Üniversite, Fakülte, Yıl) */}
-              <li>—</li>
+              <li> Koç Üniversitesi Özel Hukuk Tezli Yüksek Lisans - 2018
+              Koç Üniversitesi Hukuk Lisans - 2012 
+              University of Connecticut (İngilizce Dil Okulu) - 2006 </li>
             </ul>
           </div>
 
