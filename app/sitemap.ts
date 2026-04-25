@@ -8,7 +8,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     '/ozgecmis',
     '/arabuluculuk',
     '/avukatlik',
-    '/ucret-hesaplama',
+    '/arabulucu-ucret-hesaplama',
     '/uygulamalar',
     '/uygulamalar/arabulucu-ofis',
     '/uygulamalar/arabulucu-hesap',
