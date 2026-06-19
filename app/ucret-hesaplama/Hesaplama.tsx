@@ -72,7 +72,7 @@ export default function Hesaplama() {
                 key={t.id}
                 type="button"
                 onClick={() => setUyusmazlikTuru(t.id)}
-                className={`rounded-xl border px-4 py-3 text-left text-sm transition ${
+                className={`border px-4 py-3 text-left text-sm transition ${
                   uyusmazlikTuru === t.id
                     ? 'border-accent-500 bg-accent-50 text-ink-900'
                     : 'border-ink-200 bg-white text-ink-700 hover:border-ink-300'
@@ -92,7 +92,7 @@ export default function Hesaplama() {
                 key={s.value}
                 type="button"
                 onClick={() => setTarafSayisi(s.value)}
-                className={`rounded-xl border px-4 py-3 text-sm transition ${
+                className={`border px-4 py-3 text-sm transition ${
                   tarafSayisi === s.value
                     ? 'border-accent-500 bg-accent-50 text-ink-900'
                     : 'border-ink-200 bg-white text-ink-700 hover:border-ink-300'
@@ -110,7 +110,7 @@ export default function Hesaplama() {
             <button
               type="button"
               onClick={() => setAnlasmaVar(false)}
-              className={`rounded-xl border px-4 py-3 text-sm transition ${
+              className={`border px-4 py-3 text-sm transition ${
                 !anlasmaVar
                   ? 'border-accent-500 bg-accent-50 text-ink-900'
                   : 'border-ink-200 bg-white text-ink-700 hover:border-ink-300'
@@ -121,7 +121,7 @@ export default function Hesaplama() {
             <button
               type="button"
               onClick={() => setAnlasmaVar(true)}
-              className={`rounded-xl border px-4 py-3 text-sm transition ${
+              className={`border px-4 py-3 text-sm transition ${
                 anlasmaVar
                   ? 'border-accent-500 bg-accent-50 text-ink-900'
                   : 'border-ink-200 bg-white text-ink-700 hover:border-ink-300'
@@ -142,7 +142,7 @@ export default function Hesaplama() {
                 value={anlasmaTutariStr}
                 onChange={(e) => setAnlasmaTutariStr(e.target.value)}
                 placeholder="Örn: 250000"
-                className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
               />
             </div>
           )}
@@ -156,7 +156,7 @@ export default function Hesaplama() {
               <button
                 type="button"
                 onClick={() => setTuketiciOdemeTipi('esitOdenecek')}
-                className={`rounded-xl border px-4 py-3 text-sm transition ${
+                className={`border px-4 py-3 text-sm transition ${
                   tuketiciOdemeTipi === 'esitOdenecek'
                     ? 'border-accent-500 bg-accent-50 text-ink-900'
                     : 'border-ink-200 bg-white text-ink-700 hover:border-ink-300'
@@ -167,7 +167,7 @@ export default function Hesaplama() {
               <button
                 type="button"
                 onClick={() => setTuketiciOdemeTipi('saticiOdeyecek')}
-                className={`rounded-xl border px-4 py-3 text-sm transition ${
+                className={`border px-4 py-3 text-sm transition ${
                   tuketiciOdemeTipi === 'saticiOdeyecek'
                     ? 'border-accent-500 bg-accent-50 text-ink-900'
                     : 'border-ink-200 bg-white text-ink-700 hover:border-ink-300'
@@ -186,7 +186,7 @@ export default function Hesaplama() {
                     min={1}
                     value={saticiSayisi}
                     onChange={(e) => setSaticiSayisi(Math.max(1, parseInt(e.target.value) || 1))}
-                    className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                    className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
                   />
                 </div>
                 <div>
@@ -196,7 +196,7 @@ export default function Hesaplama() {
                     min={1}
                     value={tuketiciSayisi}
                     onChange={(e) => setTuketiciSayisi(Math.max(1, parseInt(e.target.value) || 1))}
-                    className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                    className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
                   />
                 </div>
               </div>

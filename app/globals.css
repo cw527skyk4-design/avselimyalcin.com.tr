@@ -3,8 +3,8 @@
 @tailwind utilities;
 
 :root {
-  --bg: #ffffff;
-  --fg: #11151c;
+  --bg: #f4efe4;
+  --fg: #1c1b17;
 }
 
 html {
@@ -16,7 +16,6 @@ html {
 body {
   background: var(--bg);
   color: var(--fg);
-  font-feature-settings: 'cv11', 'ss01', 'ss03';
 }
 
 @layer components {
@@ -24,26 +23,26 @@ body {
     @apply px-6 sm:px-8 lg:px-12;
   }
   .section {
-    @apply py-20 md:py-28 lg:py-36;
+    @apply py-20 md:py-28 lg:py-32;
   }
   .h-display {
     @apply font-display font-semibold tracking-tightest text-ink-900;
   }
   .btn-primary {
-    @apply inline-flex items-center justify-center rounded-full bg-ink-900 px-6 py-3 text-sm font-medium text-white transition-all hover:bg-ink-700 hover:scale-[1.02];
+    @apply inline-flex items-center justify-center bg-accent-600 px-7 py-3.5 text-sm font-semibold text-white transition-colors hover:bg-accent-700;
   }
   .btn-secondary {
-    @apply inline-flex items-center justify-center rounded-full border border-ink-200 bg-white px-6 py-3 text-sm font-medium text-ink-800 transition-all hover:border-ink-300 hover:bg-ink-50;
+    @apply inline-flex items-center justify-center border border-ink-300 bg-transparent px-7 py-3.5 text-sm font-semibold text-ink-900 transition-colors hover:border-ink-900 hover:bg-ink-50;
   }
   .card {
-    @apply rounded-3xl border border-ink-100 bg-white p-8 transition-all hover:border-ink-200 hover:shadow-[0_8px_30px_rgba(0,0,0,0.04)];
+    @apply border border-ink-200 bg-white p-8 transition-colors hover:border-ink-300;
   }
   .eyebrow {
-    @apply text-xs font-medium uppercase tracking-[0.18em] text-accent-600;
+    @apply text-xs font-semibold uppercase tracking-[0.3em] text-accent-600;
   }
 }
 
 ::selection {
-  background: #dbeafe;
-  color: #1d4ed8;
+  background: rgba(122, 38, 48, 0.18);
+  color: #641f28;
 }

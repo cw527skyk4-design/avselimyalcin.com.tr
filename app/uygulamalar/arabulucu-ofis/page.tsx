@@ -44,10 +44,10 @@ export default function ArabulucuOfisPage() {
       </section>
 
       <section className="container-px mx-auto max-w-8xl pb-24">
-        <div className="rounded-3xl bg-ink-900 px-10 py-16 text-center">
+        <div className="bg-ink-900 px-10 py-16 text-center">
           <h2 className="h-display text-3xl text-white md:text-4xl">Arabulucu Ofis'i deneyin.</h2>
           <p className="mx-auto mt-4 max-w-xl text-ink-300">Demo talebi ve fiyatlandırma için bize ulaşın.</p>
-          <Link href="/iletisim" className="mt-8 inline-flex items-center justify-center rounded-full bg-white px-6 py-3 text-sm font-medium text-ink-900 hover:scale-[1.02]">
+          <Link href="/iletisim" className="mt-8 inline-flex items-center justify-center bg-white px-6 py-3 text-sm font-medium text-ink-900 hover:scale-[1.02]">
             Demo Talep Et
           </Link>
         </div>

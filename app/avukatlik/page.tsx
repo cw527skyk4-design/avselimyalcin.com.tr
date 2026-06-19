@@ -70,7 +70,7 @@ export default function AvukatlikPage() {
                 { t: 'Hızlı İletişim', d: 'WhatsApp, e-posta ve telefonla aynı gün içinde dönüş.' },
                 { t: 'Çok Dilli Hizmet', d: 'Türkçe ve İngilizce sözleşme yönetimi.' },
               ].map((u) => (
-                <li key={u.t} className="rounded-2xl border border-ink-100 bg-white p-6">
+                <li key={u.t} className="border border-ink-100 bg-white p-6">
                   <h3 className="font-display text-lg font-semibold text-ink-900">{u.t}</h3>
                   <p className="mt-2 text-sm leading-relaxed text-ink-500">{u.d}</p>
                 </li>

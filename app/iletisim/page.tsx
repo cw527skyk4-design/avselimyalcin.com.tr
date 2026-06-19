@@ -67,7 +67,7 @@ export default function IletisimPage() {
                   required
                   name="ad"
                   type="text"
-                  className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                  className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
                 />
               </div>
               <div>
@@ -76,7 +76,7 @@ export default function IletisimPage() {
                   required
                   name="telefon"
                   type="tel"
-                  className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                  className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
                 />
               </div>
               <div className="sm:col-span-2">
@@ -85,14 +85,14 @@ export default function IletisimPage() {
                   required
                   name="eposta"
                   type="email"
-                  className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                  className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
                 />
               </div>
               <div className="sm:col-span-2">
                 <label className="text-xs font-medium text-ink-600">Konu</label>
                 <select
                   name="konu"
-                  className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                  className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
                 >
                   <option>Arabuluculuk</option>
                   <option>Avukatlık</option>
@@ -106,7 +106,7 @@ export default function IletisimPage() {
                   required
                   name="mesaj"
                   rows={5}
-                  className="mt-2 w-full rounded-xl border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
+                  className="mt-2 w-full border border-ink-200 bg-white px-4 py-3 text-sm text-ink-900 outline-none focus:border-accent-500"
                 />
               </div>
             </div>

@@ -1,31 +1,55 @@
-# Av. Arb. — İstanbul Avukatlık & Arabuluculuk
+# Av. Arb. Selim Yalçın — Web Sitesi
 
-Next.js 14 (App Router) + Tailwind CSS ile geliştirilmiş, SEO optimize, hızlı yüklenen kurumsal web sitesi.
+İstanbul merkezli avukatlık ve arabuluculuk web sitesi. **Next.js 14 (App Router)** + **Tailwind CSS**.
+Tasarım: **Açık Prestij** — sıcak fildişi zemin, bordo (#7a2630) vurgu, altın detaylar, Spectral (serif başlık) + Mulish (gövde) tipografisi.
 
-## Kurulum
+---
+
+## Hızlı Başlangıç (yerel)
 
 ```bash
 npm install
 npm run dev
 ```
 
-Tarayıcıda [http://localhost:3000](http://localhost:3000) adresini açın.
+Tarayıcıda `http://localhost:3000` adresini açın.
 
-## Yapı
+---
 
-- `app/` — App Router sayfaları (Ana Sayfa, Arabuluculuk, Avukatlık, Uygulamalar, Blog, İletişim)
-- `components/` — Navbar, Footer, WhatsAppButton
-- `app/sitemap.ts`, `app/robots.ts` — SEO
+## Yayına Alma (Deploy)
 
-## Yapılandırma
+Site **statik dışa aktarıma** ayarlıdır (`next.config.js` → `output: 'export'`).
 
-- `app/layout.tsx` — Site URL, telefon, adres, JSON-LD `LegalService` şeması
-- `components/WhatsAppButton.tsx` — WhatsApp numarası
-- `tailwind.config.ts` — Renk paleti
+### Seçenek 1 — Vercel / Netlify (önerilen, otomatik)
+1. Bu klasörü bir GitHub deposuna yükleyin.
+2. Vercel veya Netlify'da "Import / New Project" ile depoyu bağlayın.
+3. Otomatik build alır ve yayınlar. Ek ayar gerekmez.
 
-## Build
-
+### Seçenek 2 — Herhangi bir statik sunucu (cPanel, hosting, GitHub Pages)
 ```bash
+npm install
 npm run build
-npm start
 ```
+Build sonrası oluşan **`out/`** klasörünün içeriğini (tüm dosyalar) sunucunuzun
+`public_html` / kök dizinine yükleyin. Build adımı gerektirmez, saf HTML/CSS/JS'tir.
+
+---
+
+## Tasarımı Özelleştirme
+
+| Ne | Nerede |
+|----|--------|
+| Renkler (bordo, altın, ink) | `tailwind.config.ts` → `theme.extend.colors` |
+| Fontlar | `app/layout.tsx` (Spectral / Mulish) |
+| Buton / kart / başlık stilleri | `app/globals.css` → `@layer components` |
+| Menü / Footer | `components/Navbar.tsx`, `components/Footer.tsx` |
+| Sayfa içerikleri | `app/**/page.tsx` |
+
+---
+
+## Sayfalar
+`/` · `/ozgecmis` · `/arabuluculuk` · `/avukatlik` · `/ucret-hesaplama` ·
+`/uygulamalar` (+ alt sayfalar) · `/blog` · `/iletisim` · 404
+
+> Not: Google Analytics ölçüm kimliği `app/layout.tsx` içindedir (`GA_ID`).
+> İletişim formu `mailto:` ile çalışır; sunucu tarafı gerektirmez.

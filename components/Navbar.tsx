@@ -9,7 +9,7 @@ const NAV = [
   { href: '/ozgecmis', label: 'Özgeçmiş' },
   { href: '/arabuluculuk', label: 'Arabuluculuk' },
   { href: '/avukatlik', label: 'Avukatlık' },
-  { href: '/ucret-hesaplama', label: 'Arabulucu Ücret Hesaplama' },
+  { href: '/ucret-hesaplama', label: 'Ücret Hesaplama' },
   { href: '/uygulamalar', label: 'Uygulamalar' },
   { href: '/blog', label: 'Blog' },
   { href: '/iletisim', label: 'İletişim' },
@@ -30,8 +30,8 @@ export default function Navbar() {
     <header
       className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${
         scrolled
-          ? 'border-b border-ink-100 bg-white/80 backdrop-blur-xl'
-          : 'border-b border-transparent bg-white/0'
+          ? 'border-b border-ink-200 bg-[#f4efe4]/85 backdrop-blur-xl'
+          : 'border-b border-transparent bg-[#f4efe4]/0'
       }`}
     >
       <nav className="container-px mx-auto flex h-20 max-w-8xl items-center justify-between">
@@ -46,12 +46,12 @@ export default function Navbar() {
           />
         </Link>
 
-        <ul className="hidden items-center gap-1 md:flex">
+        <ul className="hidden items-center gap-0.5 lg:flex">
           {NAV.map((item) => (
             <li key={item.href}>
               <Link
                 href={item.href}
-                className="rounded-full px-4 py-2 text-sm text-ink-600 transition hover:bg-ink-50 hover:text-ink-900"
+                className="px-3.5 py-2 text-sm font-medium text-ink-600 transition-colors hover:text-accent-600"
               >
                 {item.label}
               </Link>
@@ -59,7 +59,7 @@ export default function Navbar() {
           ))}
         </ul>
 
-        <div className="hidden md:block">
+        <div className="hidden lg:block">
           <Link href="/iletisim" className="btn-primary">
             Randevu Al
           </Link>
@@ -68,7 +68,7 @@ export default function Navbar() {
         <button
           aria-label="Menüyü aç"
           onClick={() => setOpen((v) => !v)}
-          className="grid h-10 w-10 place-items-center rounded-full border border-ink-200 md:hidden"
+          className="grid h-10 w-10 place-items-center border border-ink-300 lg:hidden"
         >
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
             {open ? (
@@ -81,20 +81,20 @@ export default function Navbar() {
       </nav>
 
       {open && (
-        <div className="border-t border-ink-100 bg-white md:hidden">
+        <div className="border-t border-ink-200 bg-[#f4efe4] lg:hidden">
           <ul className="container-px mx-auto flex max-w-8xl flex-col py-4">
             {NAV.map((item) => (
               <li key={item.href}>
                 <Link
                   href={item.href}
                   onClick={() => setOpen(false)}
-                  className="block rounded-xl px-4 py-3 text-sm text-ink-700 hover:bg-ink-50"
+                  className="block px-2 py-3 text-sm font-medium text-ink-700 hover:text-accent-600"
                 >
                   {item.label}
                 </Link>
               </li>
             ))}
-            <li className="mt-2">
+            <li className="mt-3">
               <Link href="/iletisim" onClick={() => setOpen(false)} className="btn-primary w-full">
                 Randevu Al
               </Link>

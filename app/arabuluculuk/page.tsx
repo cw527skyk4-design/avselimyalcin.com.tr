@@ -106,7 +106,7 @@ export default function ArabuluculukPage() {
               { n: '03', t: 'Müzakere', d: 'Çıkar temelli müzakere ile ortak çözümün aranması.' },
               { n: '04', t: 'Anlaşma', d: 'Anlaşma belgesinin düzenlenmesi ve icra edilebilirlik şerhi.' },
             ].map((s) => (
-              <li key={s.n} className="rounded-2xl border border-ink-100 bg-white p-6">
+              <li key={s.n} className="border border-ink-100 bg-white p-6">
                 <div className="flex items-start gap-5">
                   <span className="font-display text-2xl font-semibold text-accent-600">{s.n}</span>
                   <div>

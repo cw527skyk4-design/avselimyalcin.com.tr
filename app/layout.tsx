@@ -1,8 +1,24 @@
 import type { Metadata, Viewport } from 'next';
 import Script from 'next/script';
+import { Spectral, Mulish } from 'next/font/google';
 import './globals.css';
 import Navbar from '@/components/Navbar';
 import Footer from '@/components/Footer';
+
+const spectral = Spectral({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-display',
+  display: 'swap',
+});
+
+const mulish = Mulish({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600', '700', '800'],
+  variable: '--font-sans',
+  display: 'swap',
+});
 
 const GA_ID = 'G-GKS4N5KP9J';
 
@@ -58,7 +74,7 @@ export const metadata: Metadata = {
 };
 
 export const viewport: Viewport = {
-  themeColor: '#ffffff',
+  themeColor: '#f4efe4',
   width: 'device-width',
   initialScale: 1,
   maximumScale: 5,
@@ -85,8 +101,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   };
 
   return (
-    <html lang="tr">
-      <body className="min-h-screen bg-white text-ink-900">
+    <html lang="tr" className={`${mulish.variable} ${spectral.variable}`}>
+      <body className="min-h-screen bg-[#f4efe4] font-sans text-ink-900 antialiased">
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}

@@ -8,34 +8,42 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
+        // Warm neutral ink ramp (ivory → warm near-black)
         ink: {
-          50: '#f7f8fa',
-          100: '#eef0f4',
-          200: '#dde1e8',
-          300: '#bcc2cd',
-          400: '#8a93a3',
-          500: '#5b6473',
-          600: '#3f4754',
-          700: '#2b323d',
-          800: '#1c222c',
-          900: '#11151c',
+          50: '#ece5d6',
+          100: '#e4ddcf',
+          200: '#d8cfbb',
+          300: '#b8ad97',
+          400: '#8c8474',
+          500: '#5c584f',
+          600: '#46433c',
+          700: '#33302a',
+          800: '#26241f',
+          900: '#1c1b17',
         },
+        // Burgundy accent (brand)
         accent: {
-          50: '#eff6ff',
-          100: '#dbeafe',
-          200: '#bfdbfe',
-          400: '#60a5fa',
-          500: '#3b82f6',
-          600: '#2563eb',
-          700: '#1d4ed8',
+          50: '#f4e8e4',
+          100: '#ecd6d1',
+          200: '#dcb3ad',
+          400: '#b0564f',
+          500: '#8f3a3a',
+          600: '#7a2630',
+          700: '#641f28',
+        },
+        // Gold — used on dark surfaces (footer labels, monogram)
+        gold: {
+          400: '#c9966c',
+          500: '#a98b4f',
+          600: '#8a6d33',
         },
       },
       fontFamily: {
-        sans: ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'system-ui', 'sans-serif'],
-        display: ['-apple-system', 'BlinkMacSystemFont', 'SF Pro Display', 'Inter', 'system-ui', 'sans-serif'],
+        sans: ['var(--font-sans)', 'system-ui', 'sans-serif'],
+        display: ['var(--font-display)', 'Georgia', 'serif'],
       },
       letterSpacing: {
-        tightest: '-0.04em',
+        tightest: '-0.02em',
       },
       maxWidth: {
         '8xl': '88rem',
